@@ -62,11 +62,6 @@ namespace AutomaticSlaveOutfit
             harmony.PatchAll(Assembly.GetExecutingAssembly());
         }
 
-        [DefOf]
-        public static class TraitDefOf
-        {
-            public static TraitDef Slave;
-        }
         public static class OutfitLabel
         {
             public static Outfit Slave;
